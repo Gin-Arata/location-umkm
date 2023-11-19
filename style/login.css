@@ -1,0 +1,39 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+
+.container-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/background-login-signup.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #1878AE;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.form-control {
+    background-color: #00000030; 
+    border: var(--bs-border-width) solid #00000030;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00000030;
+    background-color: #00000030;
+}

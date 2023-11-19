@@ -1,0 +1,58 @@
+.daftar-umkm-content {
+    width: 80%;
+    display: flex;
+}
+
+.form-input-umkm {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.form-input-umkm .input-umkm {
+    border: solid 1px rgb(207, 207, 207);
+    background-color: white;
+    padding: 10px 90px 10px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.form-input-umkm .input-umkm:focus {
+    outline: none;
+}
+
+.form-input-umkm textarea {
+    background-color: white;
+    border: solid 1px rgb(207, 207, 207);
+    padding: 10px 0px 10px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.form-input-umkm textarea:focus {
+    outline: none;
+}
+
+.form-input-umkm .foto-umkm {
+    margin-bottom: 5px;
+}
+
+.form-input-umkm .btn-primary {
+    margin-bottom: 10px;
+    background-color: #1D96DA;
+    border: #1D96DA;
+}
+
+.form-input-umkm .btn-primary:hover {
+    background-color: #3fa0d9;
+}
+
+.form-input-umkm .btn-primary:active {
+    background-color: #1D96DA;
+}
+

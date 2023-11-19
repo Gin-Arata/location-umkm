@@ -1,0 +1,300 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fbf7f4;
+}
+
+#home-content, #daftar-content, #halaman-umkm-content {
+  display: flex;
+}
+
+.main-search {
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+}
+
+.sidebar {
+  background-color: #1878ae;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar .username {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.username:hover {
+  cursor: pointer;
+}
+
+.username > img {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.username-text {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.username-text p {
+  margin-bottom: 0px;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-item {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-item:hover {
+  cursor: pointer;
+  background-color: #65c8ff;
+}
+
+.sidebar-item-content {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar img {
+  width: 10%;
+}
+
+.sidebar-logout {
+  margin-left: 10%;
+}
+
+.logout-content {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-content .input-search {
+  margin-left: 25%;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #00000030;
+  border: none;
+}
+
+.main-content .input-search:focus {
+  outline: none;
+  background-color: rgb(230, 230, 230);
+}
+
+.main-content .input-search::placeholder {
+  color: #00000080;
+}
+
+.main-search input[type="text"] {
+  background-image: url("../img/search-svgrepo-com.svg");
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.promosi-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content .carousel {
+  margin-left: 3%;
+  width: 85%;
+}
+
+.main-content .carousel img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.main-content-umkm {
+  display: flex;
+}
+
+.main-content-umkm .rekomendasi-umkm {
+  width: 70%;
+}
+
+.main-content-umkm .promosi-umkm {
+  width: 30%;
+}
+
+.rekomendasi-umkm, #result-search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.rekomendasi-umkm-content-img {
+  display: flex;
+  align-items: center;
+}
+
+.rekomendasi-umkm-content-img img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.rekomendasi-umkm-content {
+  background-color: #1D96DA;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 4%;
+  width: 90%;
+  display: flex;
+  gap: 6%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.rekomendasi-umkm-name {
+  color: white;
+}
+
+.rekomendasi-umkm-name p {
+  margin-bottom: 5px;
+}
+
+.next-prev-button {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.button-page {
+  border: none;
+  background-color: #65c8ff;
+  padding: 8px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.button-page:hover {
+  cursor: pointer;
+  background-color: #47bdfd;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.rekomendasi-umkm > a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-promosi {
+  top: 20px;
+  position: sticky;
+  margin-top: 30px;
+  width: 80%;
+  background-color: #1D96DA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.promosi-umkm a {
+  text-decoration: none;
+  color: white;
+}
+
+.box-promosi-content-img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-promosi-content-img img {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.box-promosi-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#result-search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#result-search > a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
